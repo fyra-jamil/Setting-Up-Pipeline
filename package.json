@@ -1,0 +1,24 @@
+{
+    "name": "setting-up-pipeline",
+    "version": "1.0.0",
+    "description": "setting-pipeline",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\"",
+      "start":"node index.js"
+    },
+    "repository": {
+      "type": "git"
+    },
+    "author": "",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/fyra-jamil"
+    },
+    "homepage": "https://github.com/fyra-jamil",
+    "dependencies": {
+      "express": "^4.17.1",
+      "redis": "^3.1.2"
+    }
+  }
+  
