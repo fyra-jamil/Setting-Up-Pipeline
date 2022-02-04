@@ -4,21 +4,24 @@
     "description": "setting-pipeline",
     "main": "index.js",
     "scripts": {
-      "test": "echo \"Error: no test specified\"",
-      "start":"node index.js"
+        "start": "node src",
+        "test": "jest src/app.test.js"
     },
     "repository": {
-      "type": "git"
+        "type": "git"
     },
     "author": "",
     "license": "MIT",
     "bugs": {
-      "url": "https://github.com/fyra-jamil"
+        "url": "https://github.com/fyra-jamil"
     },
     "homepage": "https://github.com/fyra-jamil",
     "dependencies": {
-      "express": "^4.17.1",
-      "redis": "^3.1.2"
+        "express": "^4.17.2",
+        "redis": "^3.1.2"
+    },
+    "devDependencies": {
+        "jest": "^27.4.7",
+        "supertest": "^6.2.2"
     }
-  }
-  
+}
